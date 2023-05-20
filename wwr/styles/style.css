@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Playfair+Display&display=swap');
+
 /* size */
 #content{
     max-width: 1600px;
@@ -26,6 +28,7 @@ nav a:hover {
 }
 .book{
     background-color: #12b12a; 
+
 } 
 .join{
     background-color: #78c670; 
@@ -41,10 +44,13 @@ nav a:hover {
 }
 
 /* foreground color*/
-nav a, nav a:hover, .home-title, h4, .book, .join, .book:hover, .join:hover, .msg h2, .msg p, footer, footer a, footer a:hover{
+nav a:hover, .home-title, h4, .book, .join, .book:hover, .join:hover, .msg h2, .msg p, footer, footer a, footer a:hover{
     background-color: black;
     color: #d9c2a3;
-}     
+}  
+nav a {
+    background-color: rgb(54, 5, 5); 
+}
 
 /* Edit width */
 .logo, .icon{
@@ -70,3 +76,111 @@ footer p {
 footer p a:hover {
         text-decoration: underline;
     } 
+
+
+
+/* font */
+.home-title, .msg h2{
+    font-family: Rock Salt;
+}
+
+/* Adjusting font sizes */
+body {
+    font-family: "Font1", Arial, sans-serif;
+    font-size: 22px;
+}
+.home-title {
+    font-size: 2em;   
+}
+.book, .join {
+    font-size: 18px;   
+}
+.msg p {
+    font-size: 1em;   
+}
+.msg {
+    line-height: 1.5em;
+  }
+
+/* Simple Reset  */
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+/* Adding Padding */
+#logo_link {
+    padding-top: 5px;
+}
+nav a {
+    padding: 5px;
+}
+.book, .join {
+    padding: 15px 30px;
+}
+.icon {
+    padding-top: 10px;
+}
+.msg {
+    padding: 35px;
+    margin-top: 100px
+    
+}
+.msg p {
+    padding-bottom: 15px;
+}
+footer {
+    padding: 25px 50px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Adding Margins */
+.home-title {
+    margin-top: 10px
+}
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+footer {
+    margin-top: 200px;
+}
+
+/* Adding borders, border radius and box-sizing. */
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+    
+}
+
+#background{
+    padding: 15px 30px;
+    margin-top: 200px;
+    border-radius: 5px;
+}

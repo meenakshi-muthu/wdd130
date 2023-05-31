@@ -180,46 +180,49 @@
 
 /* Activity 6 styles */ 
 .content6 {
-  display: grid;
-  grid-column: 6;
-  grid-row: 6;
+display: flex;
+align-items: center;
+justify-content: center;
   height:400px;
+  width: 400px;
+  position: relative;
   /* This is the parent of the activity 6 boxes. */
 }
 
 .red6 {
+position: absolute;
+top:0;
+left:0;
 width: 200px; 
 height: 100px; 
-grid-column: 1/4;
-grid-row:1/2;
+
 background-color: red; 
 } 
-.green6 {
-grid-column: 1/2;
-grid-row:5/6;  
-width: 100px; 
-height: 100px; 
-margin-top: -70%;
+.green6 { 
+position:absolute;
+bottom: 0;
+left:0;
+width: 200px; 
+height: 200px; 
+z-index: 3;
 background-color: green; 
  } 
-.yellow6 {
-grid-column: 5/6;
-grid-row:3/6;  
-width: 300px; 
-height: 200px; 
+.yellow6 { 
+position:absolute;
+bottom:0;
+right:0;
+width: 150px; 
+height: 300px; 
 margin-right:10px;
-
+z-index: 3;
 background-color: gold; 
 } 
 .blue6 {
-position: relative;
-overflow-x: 10px;
-margin-top: -20%;
-margin-left:-80%;
-grid-column: 2/5;
-grid-row:2/5;  
-width: 300px; 
-height: 200px; 
+position:absolute;
+top: 50px;
+left:50px;
+width: 250px; 
+height: 250px; 
 background-color: blue; 
 } 
 

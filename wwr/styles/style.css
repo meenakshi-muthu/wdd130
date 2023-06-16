@@ -94,7 +94,7 @@ footer p a:hover {
 
 /* Adjusting font sizes */
 body {
-    font-family: "Font1", Arial, sans-serif;
+    font-family: Font1, Arial, sans-serif;
     font-size: 22px;
 }
 .home-title {
@@ -115,7 +115,7 @@ body {
 body {
     background-color: #fcfbfb;
     font-family: Raleway, Arial, sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -265,9 +265,14 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
-
+.mountains {
+    contain:content;
+    grid-column: 2/7;
+    grid-row: 5/8;
+}
 .card-img, .mountains {
     width: 100%;
+    
 }  
 
 .rivers-card {
@@ -282,11 +287,7 @@ nav {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.mountains {
-    
-    grid-column: 2/7;
-    grid-row: 5/8;
-}
+
 #background {
     grid-column: 1/11;
     grid-row: 4/9;
@@ -299,7 +300,7 @@ nav {
 footer {
     background-color: #6f7364;
     padding: 25px 50px;
-    margin-top: 200px; 
+    margin-top: 100px; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -325,11 +326,12 @@ footer {
     background-attachment: fixed; 
 }
 
+
+
 .msg {
     
     position:absolute;
-    background-attachment: fixed; 
-    position: absolute;
+
     width: 50%;
     margin-left: 45%;
     background-color: #6f7364;
@@ -343,7 +345,8 @@ footer {
 
 .mountains {
     position:absolute;
-    background-attachment: fixed; 
+    image-resolution:initial;
+
     width: 50%;
     margin-left: 5%;
     margin-top: -45%;
@@ -352,7 +355,45 @@ footer {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+h5 {
+    display: block;
+    font-size: 1.5em;
+    text-align: center;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h6, h7, h8, h9 {
+    display: block;
+    font-size: 0.85em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 
+p {
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block-start: 0.50em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ 
+}
+
+#rivers-img {
+    width: 100%;
+}
+
+#rivers {
+
+    margin-left: 0.50em;
+    margin-right: 0.50em;
+}
 /* Media query */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {

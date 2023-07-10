@@ -134,6 +134,7 @@ img, .box, .box:last-child, footer{
   #hero-img, #hero-img1 {
     max-width: 100%;
     height: auto;
+    
   }
   .message-box {
     margin-top: 10px;

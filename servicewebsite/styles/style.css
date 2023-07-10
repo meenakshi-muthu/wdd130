@@ -105,6 +105,8 @@ img, .box, .box:last-child, footer{
    
 }
 
+
+
 .hero-container {
     display: flex;
   }
@@ -129,7 +131,7 @@ img, .box, .box:last-child, footer{
     text-align: center; /* Center text within the box */
   }
   
-  #hero-img {
+  #hero-img, #hero-img1 {
     max-width: 100%;
     height: auto;
   }
